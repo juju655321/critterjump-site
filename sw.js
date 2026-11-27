@@ -1,5 +1,5 @@
-/* v2 drops the old root-/assets cache from the first Pages deploy. */
-const CACHE = "critter-jump-v2";
+/* v3 picks up the heart bunny after the v2 asset-prefix cache. */
+const CACHE = "critter-jump-v3";
 /** Scope-relative so GitHub Pages (/critterjump-site/) and a root host both work. */
 function scoped(path) {
   const base = new URL(self.registration.scope).pathname.replace(/\/$/, "");
