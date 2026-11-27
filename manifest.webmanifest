@@ -1,0 +1,17 @@
+{
+  "name": "Almost Heaven Critter Jump",
+  "short_name": "Critter Jump",
+  "description": "Almost Heaven Critter Jump - a West Virginia critter peg-jump puzzle by Jupiter Rockets",
+  "id": "./",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#f6c79a",
+  "theme_color": "#6b3a2a",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

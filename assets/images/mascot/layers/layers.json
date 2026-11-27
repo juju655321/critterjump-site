@@ -1,0 +1,123 @@
+{
+  "canvas": {
+    "width": 634,
+    "height": 1024
+  },
+  "bpm": 132,
+  "audio": "../bouncing-banjo.mp3",
+  "stack_back_to_front": [
+    "legs",
+    "torso",
+    "arm-stick",
+    "arm-pail",
+    "head",
+    "hat-lamp",
+    "lamp-glow"
+  ],
+  "notes": "arm-stick is the character's right arm (image left) plus the walking stick. arm-pail is the character's left arm (image right) plus the lunch pail. Pivots are in canvas pixel coordinates (origin at the top left). Sparkles are also baked into hat-lamp and saved separately as layer-sparkles.png. Torso, head and legs include a short band of real source pixels at the seams.",
+  "layers": {
+    "legs": {
+      "file": "layer-legs.png",
+      "pivot": [
+        310,
+        770
+      ],
+      "bbox": [
+        79,
+        744,
+        458,
+        998
+      ],
+      "parent": null
+    },
+    "torso": {
+      "file": "layer-torso.png",
+      "pivot": [
+        310,
+        770
+      ],
+      "bbox": [
+        121,
+        553,
+        482,
+        796
+      ],
+      "parent": "legs"
+    },
+    "arm-stick": {
+      "file": "layer-arm-stick.png",
+      "pivot": [
+        175,
+        600
+      ],
+      "bbox": [
+        25,
+        516,
+        226,
+        980
+      ],
+      "parent": "torso"
+    },
+    "arm-pail": {
+      "file": "layer-arm-pail.png",
+      "pivot": [
+        500,
+        620
+      ],
+      "bbox": [
+        436,
+        549,
+        608,
+        980
+      ],
+      "parent": "torso"
+    },
+    "head": {
+      "file": "layer-head.png",
+      "pivot": [
+        315,
+        545
+      ],
+      "bbox": [
+        48,
+        244,
+        596,
+        588
+      ],
+      "parent": "torso"
+    },
+    "hat-lamp": {
+      "file": "layer-hat-lamp.png",
+      "pivot": [
+        315,
+        545
+      ],
+      "bbox": [
+        33,
+        25,
+        581,
+        280
+      ],
+      "parent": "head"
+    },
+    "lamp-glow": {
+      "file": "layer-lamp-glow.png",
+      "pivot": [
+        266,
+        162
+      ],
+      "bbox": [
+        138,
+        34,
+        394,
+        227
+      ],
+      "parent": "hat-lamp"
+    }
+  },
+  "lamp": {
+    "cx": 266.0,
+    "cy": 162.0,
+    "rad": 50.0
+  }
+}
