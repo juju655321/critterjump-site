@@ -1,5 +1,5 @@
-/* Cache name matches versionCode 1 in src/config.ts. Bump both together. */
-const CACHE = "critter-jump-v1";
+/* v2 drops the old root-/assets cache from the first Pages deploy. */
+const CACHE = "critter-jump-v2";
 /** Scope-relative so GitHub Pages (/critterjump-site/) and a root host both work. */
 function scoped(path) {
   const base = new URL(self.registration.scope).pathname.replace(/\/$/, "");
