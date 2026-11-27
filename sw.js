@@ -1,5 +1,5 @@
-/* v3 picks up the heart bunny after the v2 asset-prefix cache. */
-const CACHE = "critter-jump-v3";
+/* v5 picks up the classic heart outline. */
+const CACHE = "critter-jump-v5";
 /** Scope-relative so GitHub Pages (/critterjump-site/) and a root host both work. */
 function scoped(path) {
   const base = new URL(self.registration.scope).pathname.replace(/\/$/, "");
