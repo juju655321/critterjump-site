@@ -6,8 +6,8 @@ The shipped `band-poster.svg` and `hills.svg` are placeholders drawn to match th
 
 | File | Served at | Replace with |
 | --- | --- | --- |
-| `public/assets/video/band_loop.webm` | `/assets/video/band_loop.webm` | 1280×720 VP9, 30 fps, same 9.1 s loop as the MP4. The menu offers this source first. Not precached; the browser streams it. |
-| `public/assets/video/band_loop.mp4` | `/assets/video/band_loop.mp4` | 1280×720, H.264, yuv420p, 30 fps, faststart, 9.1 s seamless loop. The game mutes it. Menu fallback when WebM is unavailable. Streamed, not precached. |
+| `public/assets/video/band_singer_loop.webm` | `/assets/video/band_singer_loop.webm` | 1280×720 VP9, Sydney Bee and the band, about 10.4 s. The menu offers this source first. Not precached; the browser streams it. |
+| `public/assets/video/band_singer_loop.mp4` | `/assets/video/band_singer_loop.mp4` | Same Sydney loop, H.264 faststart. Menu fallback when WebM is unavailable. Streamed, not precached. |
 | `public/assets/video/band_raft_loop.webm` | `/assets/video/band_raft_loop.webm` | 1280×400 (16:5) VP9, 9.1 s, 132 BPM, muted. First source on the in-game banner. Streamed, not precached. The film restarts with the banjo and is nudged back if it drifts by more than one beat. |
 | `public/assets/video/band_raft_loop.mp4` | `/assets/video/band_raft_loop.mp4` | Same 16:5 strip, H.264 faststart. Fallback after WebM. Streamed, not precached. |
 | `public/assets/video/band_raft_loop@2x.mp4` | `/assets/video/band_raft_loop@2x.mp4` | Sharper copy, used only on wide high-DPR screens. Not precached. |
@@ -16,7 +16,7 @@ The shipped `band-poster.svg` and `hills.svg` are placeholders drawn to match th
 | `public/assets/images/band-poster.svg` | `/assets/images/band-poster.svg` | Still frame, viewBox 960×540. Shown only if the PNG and the video both fail. |
 | `public/assets/images/band-poster.png` | `/assets/images/band-poster.png` | 1280×720 PNG poster. Used under the video and on its own if the loop cannot play. |
 | `public/assets/images/hills.svg` | `/assets/images/hills.svg` | Page background. ViewBox 1440×900. Safe to replace. |
-| `public/assets/audio/bouncing-banjo.mp3` | `/assets/audio/bouncing-banjo.mp3` | Background tune. Stereo, 44.1 kHz, 160 kbps CBR, seamless loop, at or under 6 MB. If the source file is named `Bouncing Banio Game.mp3`, save it here under this name. |
+| `public/assets/audio/jump-little-garden-crew.mp3` | `/assets/audio/jump-little-garden-crew.mp3` | Background tune, 138.1 BPM. Starts after the first tap. Mute is remembered. |
 | `public/assets/audio/sfx/wood_clack.mp3` | `/assets/audio/sfx/wood_clack.mp3` | Peg pickup clack. A short tone plays if the file is missing. |
 | `public/assets/audio/sfx/land_thunk.mp3` | `/assets/audio/sfx/land_thunk.mp3` | Landing. |
 | `public/assets/audio/sfx/splash.mp3` | `/assets/audio/sfx/splash.mp3` | River splash into the tray. |

@@ -2,4 +2,4 @@
 
 Built files for https://critterjump.com (GitHub Pages).
 
-This repository holds the public web build only. The game source stays in a private repository. Built for the critterjump.com domain cutover (cjdist8).
+This repository holds the public web build only. The game source stays in a private repository. Built for the Kevin and Sydney Bee update (cjdist9).

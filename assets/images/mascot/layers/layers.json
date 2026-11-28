@@ -4,7 +4,7 @@
     "height": 1024
   },
   "bpm": 132,
-  "audio": "../bouncing-banjo.mp3",
+  "audio": "../../audio/jump-little-garden-crew.mp3",
   "stack_back_to_front": [
     "legs",
     "torso",

@@ -1,5 +1,5 @@
-/* v7 is the critterjump.com root deploy. */
-const CACHE = "critter-jump-v7";
+/* v8 picks up Kevin, Sydney, and the new band tracks. */
+const CACHE = "critter-jump-v8";
 /** Scope-relative. On critterjump.com the scope is /. */
 function scoped(path) {
   const base = new URL(self.registration.scope).pathname.replace(/\/$/, "");
@@ -17,7 +17,7 @@ const PRECACHE = [
   "/assets/images/band_raft_loop.png",
   "/assets/images/hills.svg",
   "/assets/images/blue-ridge.svg",
-  "/assets/audio/bouncing-banjo.mp3",
+  "/assets/audio/jump-little-garden-crew.mp3",
   "/assets/audio/sfx/wood_clack.mp3",
   "/assets/audio/sfx/land_thunk.mp3",
   "/assets/audio/sfx/splash.mp3",
