@@ -1,5 +1,5 @@
 # Almost Heaven Critter Jump
 
-Built files for https://juju655321.github.io/critterjump-site/ (GitHub Pages).
+Built files for https://critterjump.com (GitHub Pages).
 
-This repository holds the public web build only. The game source stays in a private repository. Built from source commit 358c9d9a.
+This repository holds the public web build only. The game source stays in a private repository. Built for the critterjump.com domain cutover (cjdist8).

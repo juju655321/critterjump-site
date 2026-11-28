@@ -1,6 +1,6 @@
-/* v6 drops the old publisher name from cached pages. */
-const CACHE = "critter-jump-v6";
-/** Scope-relative so GitHub Pages (/critterjump-site/) and a root host both work. */
+/* v7 is the critterjump.com root deploy. */
+const CACHE = "critter-jump-v7";
+/** Scope-relative. On critterjump.com the scope is /. */
 function scoped(path) {
   const base = new URL(self.registration.scope).pathname.replace(/\/$/, "");
   return path === "/" ? `${base}/` : `${base}${path}`;
@@ -9,7 +9,9 @@ const PRECACHE = [
   "/",
   "/index.html",
   "/manifest.webmanifest",
-  "/favicon.svg",
+  "/favicon.ico",
+  "/favicon-32.png",
+  "/apple-touch-icon.png",
   "/assets/images/band-poster.svg",
   "/assets/images/band-poster.png",
   "/assets/images/band_raft_loop.png",
