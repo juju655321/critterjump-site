@@ -1,5 +1,5 @@
-/* v5 picks up the classic heart outline. */
-const CACHE = "critter-jump-v5";
+/* v6 drops the old publisher name from cached pages. */
+const CACHE = "critter-jump-v6";
 /** Scope-relative so GitHub Pages (/critterjump-site/) and a root host both work. */
 function scoped(path) {
   const base = new URL(self.registration.scope).pathname.replace(/\/$/, "");

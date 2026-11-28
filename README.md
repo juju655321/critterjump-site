@@ -2,4 +2,4 @@
 
 Built files for https://juju655321.github.io/critterjump-site/ (GitHub Pages).
 
-This repository holds the public web build only. The game source stays in a private repository. Built from the heart-board shape fix (cjdist6).
+This repository holds the public web build only. The game source stays in a private repository. Built from source commit 358c9d9a.
